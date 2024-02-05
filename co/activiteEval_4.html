@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html>
+<html lang="fr" xml:lang="fr" dir="ltr" xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<title>Solution d'exercice</title>
+		<meta charset="UTF-8" ></meta>
+		<meta name="generator" content="SCENARI 6.2.0 / Opale 5.0.4" ></meta>
+		<meta name="revision" content="2023-12-04 18:20" ></meta>
+		<link rel="start" href="Codez_avec_scratch_Junior.html" title="Codez avec Scratch Junior" ></link>
+		<meta name="author" content="Cécile Collet
+" ></meta>
+		<meta name="date" content="" ></meta>
+		<meta name="viewport" content="width=device-width, initial-scale=1" ></meta>
+		<link rel="stylesheet" type="text/css" href="../lib-md/w_scCodeMgr/scCodeMgr.css" ></link>
+		<link rel="stylesheet" type="text/css" href="../lib-md/w_tePlayer/tePlayer.css" ></link>
+		<script>/*<![CDATA[*/
+/*0*/ var scServices = {id:"lpr8ldnp"};
+/*1*/ window.scLoadParams = {destUri:"/co/activiteEval_4.html", pathToRoot:"../"};
+/*]]>*/</script>
+		<script src="../lib-sc/scCoLib.js" ></script>
+		<script src="../lib-sc/scSiLib.js" ></script>
+		<script src="../lib-sc/scTiLib.js" ></script>
+		<script src="../lib-sc/scPaLib.js" ></script>
+		<script src="../lib-sc/scMapMgr.js" ></script>
+		<script src="../lib-sc/scTooltipMgr.js" ></script>
+		<script src="../lib-sc/scDynUiMgr.js" ></script>
+		<script src="../lib-md/s_assmnt.js" ></script>
+		<script src="../lib-sc/scDragMgr.js" ></script>
+		<script src="../lib-sc/scAssmntMgr.js" ></script>
+		<script src="../lib-md/w_tplMgr/tplMgr.js" ></script>
+		<script src="../lib-md/w_mathjax/mathjaxMgr.js" ></script>
+		<script src="../lib-md/s_scSearch/scSearch.js" ></script>
+		<script src="../lib-md/w_teMgr/teLoader.js" ></script>
+		<script src="../lib-md/w_tePlayer/tePlayer.js" ></script>
+		<script src="../lib-md/w_scCodeMgr/scCodeMgr.js" ></script>
+		<script src="../lib-md/w_scImageMgr/scImageMgr.js" ></script>
+		<script>/*<![CDATA[*/
+/*0*/ try{if(window.opener && window.opener.scServices && window.opener.scServices.id == scServices.id) scServices = window.opener.scServices; else if(window.parent && window.parent.scServices && window.parent.scServices.id == scServices.id) scServices = window.parent.scServices;}catch(e){}
+scCodeMgr.registerCode("des:div.code");
+
+scImageMgr.registerAdaptedImage("ide:content/des:figure/des:img");
+
+scImageMgr.registerGallery("des:div.galFra");
+
+scImageMgr.registerSequence("des:div.seqFra");
+
+scImageMgr.registerSvg("des:svg");
+scImageMgr.registerZoom("des:a.svgZoom",{type:"svg",svgMax:1,toolbar:1,titlePath:"par:/nsi:/des:span.capTi"});
+
+scImageMgr.registerZoom("des:a.imgZoom",{toolbar:1,mag:1,titlePath:"par:/nsi:/des:span.capTi"});
+
+tePlayerMgr.init();
+/*]]>*/</script>
+		<meta name="robots" content="index,follow" ></meta>
+		<link type="text/css" rel="stylesheet" href="../skin/css/main.css" media="all" ></link>
+		<link type="text/css" rel="stylesheet" href="../skin/css/skin.css" media="all" ></link>
+		<link type="text/css" rel="stylesheet" href="../skin/css/print.css" media="print" ></link>
+		<script>/*<![CDATA[*/try{
+	if(window.frameElement.setSubWindowTitle) window.frameElement.setSubWindowTitle(document.title);
+}catch(e){}
+/*]]>*/</script>
+		<script>/*<![CDATA[*/scDynUiMgr.subWindow.fOpt={OVERRIDE:true,IMBR:true,CLOSEBTNTI:'Fermer'};/*]]>*/</script></head>
+	<body class="subWin eval quizSolPage">
+		<div id="root"><header id="header"><nav role="navigation"><ul id="accessibility"><li class="waiContent"><a href="#content"><span>contenu</span></a></li><li class="waiNav"><a href="#navigation"><span>navigation</span></a></li></ul></nav></header><main id="main" role="main"><div id="document"><div id="content" tabindex="-1"><div class="scroller"><hr class="hidden" ></hr><section class="hBk article result"><h2 class="hBk_ti"><span>Connaître le code couleur des blocs de programmation</span></h2><div class="hBk_co "><script type="text/JavaScript">/*<![CDATA[*/
+var sapjYKbU9wgJV16snP8g1f_AsolDd = {
+
+	fId : "sapjYKbU9wgJV16snP8g1f",
+	fCurSeq : null,
+	initSeq : function(pCodeSeq){
+	try {
+		if(pCodeSeq==null) return;
+		if(this.fCurSeq!=null) this.closeSeq();
+		this.fCurSeq = pCodeSeq;
+		switch(this.fCurSeq) {
+case "init" : {
+var vLoadRespSession = "eval";
+
+	this.fResultDisplay = "addClass";
+
+
+	this.refreshResult = function(pDisplay){
+		if(pDisplay) this.fResultDisplay = pDisplay;
+		if(this.fResultDisplay == "none") for(var i=this.fLabels.length -1; i >=0; i--)  scDragMgr.helpers.delClass(this.fLabels[i],"ddLabel_Right","ddLabel_Wrong");
+		else for(var i=this.fLabels.length -1; i >=0; i--) {
+			var vLabel = this.fLabels[i];
+
+			var vOldClass = (vLabel.sG == vLabel.rG ) ? "ddLabel_Wrong" : "ddLabel_Right";
+			var vNewClass = (vLabel.sG == vLabel.rG ) ? "ddLabel_Right" : "ddLabel_Wrong";
+
+			scDragMgr.helpers.switchClass(vLabel, vOldClass, vNewClass);
+		}
+	};
+		this.computeScore = function() {
+
+		this.refreshScoresFeedbacks();
+this.refreshResult();
+};
+		for(var i = this.fLabels.length - 1; i >=0; i--) scDragMgr.setDraggable(this.fLabels[i], false);
+		this.load(vLoadRespSession);
+		this.synch();
+var vLoadScoreSession = "eval";
+		this.fMinPts = scServices.assmntMgr.getMinPts(this.fId, vLoadScoreSession);
+		this.fScorePts = scServices.assmntMgr.getScorePts(this.fId, vLoadScoreSession);
+		this.fMaxPts = scServices.assmntMgr.getMaxPts(this.fId, vLoadScoreSession);
+this.fRespSession = null;
+
+		this.computeScore();
+
+		scServices.assmntMgr.commit();
+		break;
+	}
+
+		}
+	}catch(e){alert("failed:::"+e)};
+	},
+
+	closeSeq: function(){
+		var vForm = document.forms.sapjYKbU9wgJV16snP8g1f_AsolDd_form;
+		switch(this.fCurSeq) {
+case "init" : {
+		this.refreshResult("none");
+
+		break;
+	}
+
+		}
+		this.fCurSeq = null;
+	},
+	getOnLoadSeq:function() {
+
+	return "init";
+	},
+
+	saveResp:function(pSession){
+		if(pSession==null) return;
+		var vLabel = this.fLabels[0];
+		var vStr = '[{"g":' + vLabel.rG + ',"offs":' + vLabel.rO + ',' + scDragMgr.saveLabelPos(vLabel) + '}';
+		for(var i=1, len=this.fLabels.length; i < len; i++) {
+			vLabel = this.fLabels[i];
+			vStr += ',{"g":' + vLabel.rG + ',"offs":' + vLabel.rO + ',' + scDragMgr.saveLabelPos(vLabel) + '}';
+		}
+		vStr+=']';
+		scServices.assmntMgr.setResponse(this.fId, pSession, "pos", vStr);
+	},
+	load:function(pSession){
+		var vStr = (pSession!=null) ? scServices.assmntMgr.getResponse(this.fId, pSession, "pos") : null;
+		for(var i=this.fGroupsC.length -1; i >=0; i--) {
+			var vGroup = this.fGroupsC[i];
+			for(var j=vGroup.length-1; j >=0; j--) vGroup[j].labelsToAdd = [];
+		}
+		if(vStr) {
+						var vList = scServices.dataUtil.deserialiseObjJs(vStr);
+			for(var i=0, len=this.fLabels.length; i < len; i++) {
+				var vLabelToAdd = vList[i];
+				vLabelToAdd.label = this.fLabels[i];
+				var vGroupC = this.fGroupsC[vLabelToAdd.g];
+				if(vGroupC.length == 1) vGroupC[0].labelsToAdd[vLabelToAdd.offs] = vLabelToAdd; 
+				else vGroupC[vLabelToAdd.offs].labelsToAdd.push(vLabelToAdd);
+			}
+		} else {
+						var vBasketC = this.fGroupsC[0];
+
+			for(var i=vBasketC.length-1; i >=0; i--) for(var j=0, vLen=vBasketC[i]._Labels.length; j < vLen; j++) vBasketC[i].labelsToAdd.push({label:vBasketC[i]._Labels[j]});
+
+		}
+		scDragMgr.repopulateContainers("sapjYKbU9wgJV16snP8g1f_AsolDd");
+	},
+	synch:function(){
+		for(var i=this.fGroupsC.length -1; i >=0; i--) {
+			var vGroup = this.fGroupsC[i];
+			var vOffset = 0;
+			for(var j=0, vLenJ=vGroup.length; j < vLenJ; j++) {
+				var vItems = scDragMgr.getLabels(vGroup[j]);
+				var vLenK = vItems.length;
+								if(vLenK == 0) vOffset++;
+				else for(var k=0; k < vLenK; k++) {
+					vItems[k].rG = i;
+					vItems[k].rO = vOffset++;
+				}
+			}
+		}
+	},
+	onLoad: function(){
+	try{
+		var onChange = function() {
+sapjYKbU9wgJV16snP8g1f_AsolDd.synch();
+sapjYKbU9wgJV16snP8g1f_AsolDd.computeScore();
+sapjYKbU9wgJV16snP8g1f_AsolDd.saveResp(sapjYKbU9wgJV16snP8g1f_AsolDd.fRespSession);
+			scServices.assmntMgr.commit();
+		}
+		this.fLabels = [];
+		var vLabel, vC;
+scDragMgr.makeContainer("sapjYKbU9wgJV16snP8g1f_AsolDd", sc$("sapjYKbU9wgJV16snP8g1f_AsolDd_S_N6e"), vC = sc$("sapjYKbU9wgJV16snP8g1f_AsolDd_S_N70"), sc$("sapjYKbU9wgJV16snP8g1f_AsolDd_S_N7b")).setMode(vC, 'append', -1).setDragOverClass(vC, 'ddBasketDragOver');
+vLabel = sc$("sapjYKbU9wgJV16snP8g1f_AsolDd_LN2e");
+		this.fLabels.push(vLabel);
+		vLabel.sO=0;
+vLabel.sG=1;
+scDragMgr.makeDraggableLabel("sapjYKbU9wgJV16snP8g1f_AsolDd", vLabel).setCallback(vLabel, onChange).setDragClass(vLabel, '');
+vLabel = sc$("sapjYKbU9wgJV16snP8g1f_AsolDd_LN3b");
+		this.fLabels.push(vLabel);
+		vLabel.sO=0;
+vLabel.sG=2;
+scDragMgr.makeDraggableLabel("sapjYKbU9wgJV16snP8g1f_AsolDd", vLabel).setCallback(vLabel, onChange).setDragClass(vLabel, '');
+vLabel = sc$("sapjYKbU9wgJV16snP8g1f_AsolDd_LN48");
+		this.fLabels.push(vLabel);
+		vLabel.sO=0;
+vLabel.sG=3;
+scDragMgr.makeDraggableLabel("sapjYKbU9wgJV16snP8g1f_AsolDd", vLabel).setCallback(vLabel, onChange).setDragClass(vLabel, '');
+vLabel = sc$("sapjYKbU9wgJV16snP8g1f_AsolDd_LN55");
+		this.fLabels.push(vLabel);
+		vLabel.sO=0;
+vLabel.sG=4;
+scDragMgr.makeDraggableLabel("sapjYKbU9wgJV16snP8g1f_AsolDd", vLabel).setCallback(vLabel, onChange).setDragClass(vLabel, '');
+vLabel = sc$("sapjYKbU9wgJV16snP8g1f_AsolDd_LN62");
+		this.fLabels.push(vLabel);
+		vLabel.sO=0;
+vLabel.sG=5;
+scDragMgr.makeDraggableLabel("sapjYKbU9wgJV16snP8g1f_AsolDd", vLabel).setCallback(vLabel, onChange).setDragClass(vLabel, '');
+vLabel = sc$("sapjYKbU9wgJV16snP8g1f_AsolDd_LN6f");
+		this.fLabels.push(vLabel);
+		vLabel.sO=0;
+vLabel.sG=6;
+scDragMgr.makeDraggableLabel("sapjYKbU9wgJV16snP8g1f_AsolDd", vLabel).setCallback(vLabel, onChange).setDragClass(vLabel, '');
+scDragMgr.makeContainer("sapjYKbU9wgJV16snP8g1f_AsolDd", sc$("sapjYKbU9wgJV16snP8g1f_AsolDd_NN8c_N27"), vC = sc$("sapjYKbU9wgJV16snP8g1f_AsolDd_NN93_N27"), sc$("sapjYKbU9wgJV16snP8g1f_AsolDd_NN95_N27")).setMode(vC, 'append', -1).setDragOverClass(vC, 'ddCatchDragOver');
+scDragMgr.makeContainer("sapjYKbU9wgJV16snP8g1f_AsolDd", sc$("sapjYKbU9wgJV16snP8g1f_AsolDd_NN8c_N34"), vC = sc$("sapjYKbU9wgJV16snP8g1f_AsolDd_NN93_N34"), sc$("sapjYKbU9wgJV16snP8g1f_AsolDd_NN95_N34")).setMode(vC, 'append', -1).setDragOverClass(vC, 'ddCatchDragOver');
+scDragMgr.makeContainer("sapjYKbU9wgJV16snP8g1f_AsolDd", sc$("sapjYKbU9wgJV16snP8g1f_AsolDd_NN8c_N41"), vC = sc$("sapjYKbU9wgJV16snP8g1f_AsolDd_NN93_N41"), sc$("sapjYKbU9wgJV16snP8g1f_AsolDd_NN95_N41")).setMode(vC, 'append', -1).setDragOverClass(vC, 'ddCatchDragOver');
+scDragMgr.makeContainer("sapjYKbU9wgJV16snP8g1f_AsolDd", sc$("sapjYKbU9wgJV16snP8g1f_AsolDd_NN8c_N4e"), vC = sc$("sapjYKbU9wgJV16snP8g1f_AsolDd_NN93_N4e"), sc$("sapjYKbU9wgJV16snP8g1f_AsolDd_NN95_N4e")).setMode(vC, 'append', -1).setDragOverClass(vC, 'ddCatchDragOver');
+scDragMgr.makeContainer("sapjYKbU9wgJV16snP8g1f_AsolDd", sc$("sapjYKbU9wgJV16snP8g1f_AsolDd_NN8c_N5b"), vC = sc$("sapjYKbU9wgJV16snP8g1f_AsolDd_NN93_N5b"), sc$("sapjYKbU9wgJV16snP8g1f_AsolDd_NN95_N5b")).setMode(vC, 'append', -1).setDragOverClass(vC, 'ddCatchDragOver');
+scDragMgr.makeContainer("sapjYKbU9wgJV16snP8g1f_AsolDd", sc$("sapjYKbU9wgJV16snP8g1f_AsolDd_NN8c_N68"), vC = sc$("sapjYKbU9wgJV16snP8g1f_AsolDd_NN93_N68"), sc$("sapjYKbU9wgJV16snP8g1f_AsolDd_NN95_N68")).setMode(vC, 'append', -1).setDragOverClass(vC, 'ddCatchDragOver');
+this.fGroupsC = [scDragMgr.getContainers("sapjYKbU9wgJV16snP8g1f_AsolDd", sc$("sapjYKbU9wgJV16snP8g1f_AsolDd_L")),scDragMgr.getContainers("sapjYKbU9wgJV16snP8g1f_AsolDd", sc$("sapjYKbU9wgJV16snP8g1f_AsolDd_RN27")),scDragMgr.getContainers("sapjYKbU9wgJV16snP8g1f_AsolDd", sc$("sapjYKbU9wgJV16snP8g1f_AsolDd_RN34")),scDragMgr.getContainers("sapjYKbU9wgJV16snP8g1f_AsolDd", sc$("sapjYKbU9wgJV16snP8g1f_AsolDd_RN41")),scDragMgr.getContainers("sapjYKbU9wgJV16snP8g1f_AsolDd", sc$("sapjYKbU9wgJV16snP8g1f_AsolDd_RN4e")),scDragMgr.getContainers("sapjYKbU9wgJV16snP8g1f_AsolDd", sc$("sapjYKbU9wgJV16snP8g1f_AsolDd_RN5b")),scDragMgr.getContainers("sapjYKbU9wgJV16snP8g1f_AsolDd", sc$("sapjYKbU9wgJV16snP8g1f_AsolDd_RN68"))];
+		for(var i = this.fGroupsC[0].length-1; i >=0; i--) this.fGroupsC[0][i]._Labels = scDragMgr.getLabels(this.fGroupsC[0][i]);
+		this.initSeq(this.getOnLoadSeq()); 
+		scAssmntMgr.setMode(sc$("sapjYKbU9wgJV16snP8g1f_AsolDd_A"));
+	}catch(e){console.log(e);}
+	},
+
+	onUnload: function(){
+		this.closeSeq();
+	},
+	refreshScoresFeedbacks : function(){
+
+		var vScoreNode = sc$("sapjYKbU9wgJV16snP8g1f_AsolDd_SN43");
+
+		var vScore = (Math.round((this.fScorePts-this.fMinPts) / (this.fMaxPts-this.fMinPts) * 100) * 1)+ 0;
+if(vScore > 99 && true) {
+			vScoreNode.innerHTML = "<span>"  + "Bonne réponse<\/span>";
+			vScoreNode.className = "answBest";
+		} else if(vScore > 49 && vScore <= 99 && true) {
+			vScoreNode.innerHTML = "<span>" + vScore + "% de bonnes réponses<\/span>";
+			vScoreNode.className = "answGood";
+		} else if(vScore > 0 && vScore <= 49 && true) {
+			vScoreNode.innerHTML = "<span>" + vScore + "% de bonnes réponses<\/span>";
+			vScoreNode.className = "answBad";
+		} else if(vScore <= 0 && true) {
+			vScoreNode.innerHTML = "<span>"  + "Mauvaise réponse <\/span>";
+			vScoreNode.className = "answWorst";
+		} else  {
+			vScoreNode.innerHTML = "";
+			vScoreNode.className = "";
+		}
+
+	},
+	loadSortKey: "A",
+	unloadSortKey: "A"
+};
+
+scOnLoads[scOnLoads.length] = sapjYKbU9wgJV16snP8g1f_AsolDd;
+scOnUnloads[scOnUnloads.length] = sapjYKbU9wgJV16snP8g1f_AsolDd;
+/*]]>*/</script><div id="sapjYKbU9wgJV16snP8g1f_AsolDd_A" style="display:none;"><div class="solBody"><div class="question"><h3 class="question_ti"><span>Énoncé</span></h3><div class="rBk "><p>Classe les familles de blocs de programmation par code couleur</p></div></div><div class="score"><h3 class="score_ti"><span>Résultat</span></h3><div class="scoreEval " aria-live="polite"><div id="sapjYKbU9wgJV16snP8g1f_AsolDd_SN43"><span ></span></div></div></div><div class="sol"><h3 class="sol_ti"><span>Correction</span></h3><table class="mtTable"><tr><td class="mtTdBasketSol"></td><td class="mtTdHeading">Votre réponse</td><td class="mtTdHeading">Solution</td></tr><tr><td class="mtTdBasketSol"><div id="sapjYKbU9wgJV16snP8g1f_AsolDd_L" class="ddBasket "><div id="sapjYKbU9wgJV16snP8g1f_AsolDd_S_N6e" class="ddBasketCatch "><div id="sapjYKbU9wgJV16snP8g1f_AsolDd_S_N70" class="ddBasketCont "><div id="sapjYKbU9wgJV16snP8g1f_AsolDd_LN48" class="mtLabel "><p>Blocs violets</p></div><div id="sapjYKbU9wgJV16snP8g1f_AsolDd_LN6f" class="mtLabel "><p>Blocs rouges</p></div><div id="sapjYKbU9wgJV16snP8g1f_AsolDd_LN3b" class="mtLabel "><p>Blocs bleus</p></div><div id="sapjYKbU9wgJV16snP8g1f_AsolDd_LN55" class="mtLabel "><p>Blocs verts</p></div><div id="sapjYKbU9wgJV16snP8g1f_AsolDd_LN2e" class="mtLabel "><p>Blocs jaunes</p></div><div id="sapjYKbU9wgJV16snP8g1f_AsolDd_LN62" class="mtLabel "><p>Blocs oranges</p></div></div><div id="sapjYKbU9wgJV16snP8g1f_AsolDd_S_N7b" class="ddBasketIfEmpty "><span>Plus d'éléments à catégoriser</span></div><div class="ddBasketEnd" ></div></div></div></td><td class="mtTdSol"><div id="sapjYKbU9wgJV16snP8g1f_AsolDd_RN27" class="ddRepArea "><div id="sapjYKbU9wgJV16snP8g1f_AsolDd_NN8c_N27" class="ddDropCatch "><div class="ddDropTi"><p>Déclenchement des programmes</p></div><div id="sapjYKbU9wgJV16snP8g1f_AsolDd_NN93_N27" class="ddDropCont " ></div><div id="sapjYKbU9wgJV16snP8g1f_AsolDd_NN95_N27" class="ddDropContIfEmpty "><span>Déposez ici</span></div><div class="ddCatchDragEnd" ></div></div></div><div id="sapjYKbU9wgJV16snP8g1f_AsolDd_RN34" class="ddRepArea "><div id="sapjYKbU9wgJV16snP8g1f_AsolDd_NN8c_N34" class="ddDropCatch "><div class="ddDropTi"><p>Mouvement des personnages</p></div><div id="sapjYKbU9wgJV16snP8g1f_AsolDd_NN93_N34" class="ddDropCont " ></div><div id="sapjYKbU9wgJV16snP8g1f_AsolDd_NN95_N34" class="ddDropContIfEmpty "><span>Déposez ici</span></div><div class="ddCatchDragEnd" ></div></div></div><div id="sapjYKbU9wgJV16snP8g1f_AsolDd_RN41" class="ddRepArea "><div id="sapjYKbU9wgJV16snP8g1f_AsolDd_NN8c_N41" class="ddDropCatch "><div class="ddDropTi"><p>Apparence des personnages</p></div><div id="sapjYKbU9wgJV16snP8g1f_AsolDd_NN93_N41" class="ddDropCont " ></div><div id="sapjYKbU9wgJV16snP8g1f_AsolDd_NN95_N41" class="ddDropContIfEmpty "><span>Déposez ici</span></div><div class="ddCatchDragEnd" ></div></div></div><div id="sapjYKbU9wgJV16snP8g1f_AsolDd_RN4e" class="ddRepArea "><div id="sapjYKbU9wgJV16snP8g1f_AsolDd_NN8c_N4e" class="ddDropCatch "><div class="ddDropTi"><p>Sons et enregistrements</p></div><div id="sapjYKbU9wgJV16snP8g1f_AsolDd_NN93_N4e" class="ddDropCont " ></div><div id="sapjYKbU9wgJV16snP8g1f_AsolDd_NN95_N4e" class="ddDropContIfEmpty "><span>Déposez ici</span></div><div class="ddCatchDragEnd" ></div></div></div><div id="sapjYKbU9wgJV16snP8g1f_AsolDd_RN5b" class="ddRepArea "><div id="sapjYKbU9wgJV16snP8g1f_AsolDd_NN8c_N5b" class="ddDropCatch "><div class="ddDropTi"><p>Contrôle : vitesse, boucle de répétition...</p></div><div id="sapjYKbU9wgJV16snP8g1f_AsolDd_NN93_N5b" class="ddDropCont " ></div><div id="sapjYKbU9wgJV16snP8g1f_AsolDd_NN95_N5b" class="ddDropContIfEmpty "><span>Déposez ici</span></div><div class="ddCatchDragEnd" ></div></div></div><div id="sapjYKbU9wgJV16snP8g1f_AsolDd_RN68" class="ddRepArea "><div id="sapjYKbU9wgJV16snP8g1f_AsolDd_NN8c_N68" class="ddDropCatch "><div class="ddDropTi"><p>Fin de programme</p></div><div id="sapjYKbU9wgJV16snP8g1f_AsolDd_NN93_N68" class="ddDropCont " ></div><div id="sapjYKbU9wgJV16snP8g1f_AsolDd_NN95_N68" class="ddDropContIfEmpty "><span>Déposez ici</span></div><div class="ddCatchDragEnd" ></div></div></div></td><td class="mtTdSol"><div id="sapjYKbU9wgJV16snP8g1f_AsolDd_NNa5_N27" class="ddRepArea "><div class="ddDropCatch"><div class="ddDropTi"><p>Déclenchement des programmes</p></div><div class="ddDropCont"><div class="mtLabelSol"><p>Blocs jaunes</p></div></div><div class="ddCatchDragEnd" ></div></div></div><div id="sapjYKbU9wgJV16snP8g1f_AsolDd_NNa5_N34" class="ddRepArea "><div class="ddDropCatch"><div class="ddDropTi"><p>Mouvement des personnages</p></div><div class="ddDropCont"><div class="mtLabelSol"><p>Blocs bleus</p></div></div><div class="ddCatchDragEnd" ></div></div></div><div id="sapjYKbU9wgJV16snP8g1f_AsolDd_NNa5_N41" class="ddRepArea "><div class="ddDropCatch"><div class="ddDropTi"><p>Apparence des personnages</p></div><div class="ddDropCont"><div class="mtLabelSol"><p>Blocs violets</p></div></div><div class="ddCatchDragEnd" ></div></div></div><div id="sapjYKbU9wgJV16snP8g1f_AsolDd_NNa5_N4e" class="ddRepArea "><div class="ddDropCatch"><div class="ddDropTi"><p>Sons et enregistrements</p></div><div class="ddDropCont"><div class="mtLabelSol"><p>Blocs verts</p></div></div><div class="ddCatchDragEnd" ></div></div></div><div id="sapjYKbU9wgJV16snP8g1f_AsolDd_NNa5_N5b" class="ddRepArea "><div class="ddDropCatch"><div class="ddDropTi"><p>Contrôle : vitesse, boucle de répétition...</p></div><div class="ddDropCont"><div class="mtLabelSol"><p>Blocs oranges</p></div></div><div class="ddCatchDragEnd" ></div></div></div><div id="sapjYKbU9wgJV16snP8g1f_AsolDd_NNa5_N68" class="ddRepArea "><div class="ddDropCatch"><div class="ddDropTi"><p>Fin de programme</p></div><div class="ddDropCont"><div class="mtLabelSol"><p>Blocs rouges</p></div></div><div class="ddCatchDragEnd" ></div></div></div></td></tr></table></div></div></div></div></section></div></div><div id="navigation" tabindex="-1"><hr class="hidden" ></hr><span class="evalCounter"><span class="seen">2</span><span class="over">/</span><span class="total">4</span></span><nav class="pageTurner" role="navigation"><ul><li><a rel="prev" target="_self" href="appar_1.html" class="btnNav prevEval" title="Précédent (Solution d&apos;exercice)"><span>Précédent</span></a></li><li><a rel="next" target="_self" href="qcu_02_1.html" class="btnNav nextEval" title="Suivant (Solution d&apos;exercice)"><span>Suivant</span></a></li></ul></nav></div></div></main></div>
+		<script src="../skin/js/skin.js" ></script>
+		<script type="text/javascript">/*<![CDATA[*/tplMgr.init();scCodeMgr.init();scImageMgr.init();/*]]>*/</script></body></html>
